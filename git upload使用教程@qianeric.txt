@@ -1,0 +1,19 @@
+Git Upload使用教程
+下载链接：https://github.com/lxcxjxhx/HOS/blob/main/UPLOAD.zip
+进入upload文件夹,双击use_download.BAT,安装依赖
+获取访问钥
+首页点击右上角用户头像，点击setting,翻至底部,点击developer settings,点击Personal access tokens，选择tokens (classic)，点击generate new token,选择generate new token (classic)，全选所有选项，翻至底部，点击generate token,复制访问钥
+ghp_xxxxxxxxxxx(Personal access tokens (classic))
+获取GitHub仓库的URL
+进入仓库，点击绿色code，复制url
+https://github.com/xxx/xxx.github.io.git
+获取本地仓库地址
+点击upload.exe,选择仓库号，输入GitHub仓库的url，，自动复制创建本地库，点击UPLOAD文件夹，将自己需要上传的内容复制到文件夹中，复制该文件夹地址位置
+C:\Users\xxx\Desktop\UPLOAD\xxx.github.io.git
+
+在upload中依次输入：
+ghp_xxxxxxxxxxx(Personal access tokens (classic))
+输入数字选择仓库
+https://github.com/xxx/xxx.github.io.git
+C:\Users\xxx\Desktop\UPLOAD\xxx.github.io.git
+即可成功上传
